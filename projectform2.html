@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title> Be A Sub Broker </title>
+        <style>
+            #topper{
+                height : 60px ;
+                background-color: #0865ab ;
+                padding-bottom : 5px ;
+                padding-top : 12px ;
+                padding-right : 40px ;
+            }
+            #disp1{
+                height : 700px ;
+                background-image : url(subbrokerimg.jpeg) ;
+                background-size: cover ;
+                background-repeat : no-repeat ;
+                padding : 1% ;
+            }
+            #disp2{
+                background-color : #f9c945 ;
+            }
+            #ffosw{
+                font-family :fantasy ;
+                font-weight : 700 ;
+            }
+            #p1{
+                font-weight : 700 ;
+                font-size : 55px ;
+                padding-top : 5% ;
+                color : white ;
+            }
+            .button{
+                border-radius : 5px ;
+                text-align: center ;
+                padding : 15% ;
+                width: 170%;
+                font-size: 10px ;
+                background-color: rgb(240, 176, 1);
+                border-color: sandybrown ; 
+                height: 35px ;
+            }
+            .parablack{
+                font-size : 18px ;
+            }
+            #beigesection{
+                background-color : beige ;
+                height : 600px ;
+            }
+            #p3{
+                font-size : 60px ;
+                font-weight: 900 ;
+                text-align : center ;
+                color : #0865ab ;
+                margin-bottom: 50px ;
+            }
+            .spacing{
+                padding-right : 5% ;
+                padding-left : 5% ;
+                padding-top: 2% ;
+            }
+            .whitesection{
+                background-color : white ;
+                height : 280px ;
+                padding : 12px ;
+            }
+            #onefourthsection{
+                color : #0865ab ;
+                text-align : center ;
+                align-content: center ;
+            }
+            #littlewhitepart{
+                background-color: white ;
+                height: 100% ;
+                padding: 2% ;
+            }
+            #p2{
+                font-size : 30px ;
+                font-weight: 600 ;
+                color : darkblue ;
+                margin-bottom : 0px ;
+            }
+            .head1{
+                text-align : center ;
+                font-size : 22px ;
+                font-weight: 500 ;
+                color : #0865ab ;
+                align-content: center ;
+            }
+            .parablue{
+                color : #0865ab ;
+                text-align : center ;
+                font-size : 14px ;
+            }
+            #bluesection{
+                background-color : #33ccff ;
+                height : 740px ;
+                text-align : center ;
+            }
+            .complicated{
+                padding : 2% ;
+            }
+            .blacktext{
+                font-size : 14px ;
+            }
+            .footer{
+                background-color : #252c35 ;
+                color : #8c98a3; ;
+                height : 260px ;
+                padding: 3% ;
+                font-family : 'Open Sans' ;
+                font-size : 14px ;
+            }
+            .navbar{
+  background-color: #0455C5;
+  padding: 2em;
+}
+
+.nav-item {
+  margin-left: 1em;
+}
+.navbar .navbar-nav .nav-item a
+{
+  font-weight: bolder;
+  color:linen;
+}
+.navbar .nav-item .nav-link
+{
+  font-weight: bolder;
+  color:linen;
+}
+#t1{
+   background-color: #EFF20E;
+  color: black;
+  font-size: 18px;
+  padding: 12px 24px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+#t1:hover {
+  background-color: #BCBE31;
+}
+        </style>
+        <script>
+            function display(elem)
+            {
+                document.getElementById("city").value = elem.value;
+            }
+        </script>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light bg-primary sticky-top">
+    <a class="navbar-brand" href="file:///C:/Users/Sunit/Desktop/WPL%20Project/file3.html" style="font-size:25px;"><b>SVK BROKING</b></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+      <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/Sunit/Desktop/WPL%20Project/file3.html" style="font-size: 20px">HOME</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/Sunit/Desktop/WPL%20Project/platform.html" style="font-size: 20px">PLATFORMS & TOOLS</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="file:///C:/Users/Sunit/Desktop/WPL%20Project/products.html" style="font-size: 20px">PRODUCTS & SERVICES</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#" style="font-size: 20px">RESEARCH & CONTENT</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="file:///C:/Users/Sunit/Desktop/WPL%20Project/projectform2.html" style="font-size: 20px">BE A SUB BROKER</a>
+        </li>
+         <li class="nav-item">
+          <a class="nav-link" href="#">
+            <form method="get" action="file:///C:/Users/Sunit/Desktop/WPL%20Project/projectform.html">
+              <button class="btn" type="submit" id="t1"><b>Open An Account</b></button>
+            </form>
+          </a>
+        </li>
+      </ul>
+      <form class="form-inline my-2 my-lg-0" id="search">
+        <input class="form-control mr-sm-2" type="search" placeholder="Search">
+        <button class="btn" type="submit" style="color: white; background-color: black;">Search</button>
+      </form>
+    </div>
+  </nav>
+  <nav aria-label="breadcrumb">
+  <ol class="breadcrumb">
+    <li class="breadcrumb-item"><a href="#file:///C:/Users/Sunit/Desktop/WPL%20Project/file3.html">Home</a></li>
+    <li class="breadcrumb-item active" aria-current="page">Be A Sub Broker</li>
+  </ol>
+</nav>
+        <div class = "container-fluid">
+            <div class = "container-fluid" id = "disp1">
+                <div class = "row">
+                    <div class = "col-md-8 col-xs-12">
+                        <div style = "padding : 5%" >
+                            <div style = "height : 50%">
+                                <div class = "row">
+                                    <div class = "col-md-7">
+                                        <p id = "p1" >BECOME SVK BROKING <span id = "p1" style="color : bisque">SUB BROKER</span></p>
+                                    </div>
+                                    <div class = "col-md-5">
+                                        <img src="offer-image.png" class="oimg">
+                                    </div>
+                                </div>
+                            </div>
+                            <hr style="background-color: aliceblue">
+                            <h3 style="color : white ; text-align: center">WIN ASSURED GIFT VOUCHER WORTH <span style="color: bisque">RS. 1000/-</span></h3>
+                            <br>
+                            <div class = "row">
+                                <div class = "col-md-4">
+                                    <img src="amazon-voucher1.png" alt="Amazon Voucher">
+                                </div>
+                                <div class = "col-md-4">
+                                    <img src="paytm-voucher1.png" alt="Paytm Voucher">
+                                </div>
+                                <div class = "col-md-4">
+                                    <img src="bms-voucher1.png" alt="BMS Voucher">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class = "col-md-4 col-xs-12" style = "padding: 4%">
+                        <div id = "disp2"  style = "padding : 5%" >
+                            <h3 style = "text-align : center"  id = "ffosw" > TAKE THE 1st STEP NOW! </h3>
+                            <h5 style = "text-align : center" > Please enter your details</h5>
+                            <form action="DONE BRO POSSIBLY" >
+                                <div class = "col-md-12 col-xs-12" >
+                                    <div class = "form-group" >
+                                        <div class = "row" >
+                                            <div class = "col-md-12">
+                                                <div class = "input-group">
+                                                    <input type="name" class="form-control" id="name" placeholder = "Name" required >
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class = "form-group" >
+                                    <div class = "row">
+                                        <div class = "col-md-4 col-xs-4">
+                                            <input type="tel" minlength = "4" maxlength = "4"
+                                                   oninvalid="this.setCustomValidity(' Enter the Country Code example for India 0091 ')" 
+                                                class="form-control" id="ccmobile" placeholder = "Code" required  >
+                                        </div>
+                                        <div class = "col-md-8 col-xs-8">
+                                            <input type="tel" minlength = "10" maxlength = "10"
+                                                   oninvalid="this.setCustomValidity(' Enter the Mobile number example 1234567890 ')" 
+                                                   class="form-control" id="mobilenumber" placeholder = "Mobile No" required  >
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "form-group" >
+                                    <div class = "row" >
+                                        <div class = "col-md-12">
+                                            <div class = "input-group">
+                                                <input type="email" class="form-control" id="email" placeholder = "Email-ID" required >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class = "form-group" >
+                                    <div class = "row" >
+                                        <div class = "col-md-12 col-xs-12" >
+                                            <div class = "input-group">
+                                                <input type="text" class="form-control" id="city" placeholder = "Nearest City" >
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-control" id="selectcity" placeholder = "Select Offer">
+                                        <option>Select Offer</option>
+                                        <option>Amazon Voucher</option>
+                                        <option>Paytm Cash</option>
+                                        <option>Book My Show Ticket Voucher</option>
+                                    </select>
+                                </div>
+                                <div class = "form-group" >
+                                    <div class = "row">
+                                        <div class = "col-md-3"></div>
+                                        <div class = "col-md-9"> 
+                                            <button type="submit" class="btn btn-success" >Apply Now</button>
+                                        </div>
+                                    </div>
+                                </div>    
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id = "beigesection">
+            <div style = " height : 24% ; padding : 2% ;">
+                <p id = "p3">WHY BECOME SVK BROKING SUBBROKER ?</p>
+            </div>
+            <div style = "height : 35%">
+                <div class = "spacing">
+                    <div class = "row">
+                        <div class = "col-md-6" >
+                            <div id = "littlewhitepart">
+                            <h3 id = "onefourthsection">SVK Broking Legacy</h3>
+                            <p id = "onefourthsection" style = "font-size: 18px">One of the market leaders with strong brand recall, 
+                                SVK Broking offers industry’s high standard facilities,
+                                great leverage & advanced technology, enabling easier client acquisition.</p>
+                            </div>
+                        </div>
+                        <div class = "col-md-6">
+                            <div id = "littlewhitepart">
+                            <h3 id = "onefourthsection">Dynamic Career Growth</h3>
+                            <p id = "onefourthsection" style = "font-size: 18px">As a Sub Broker of SVK Broking, there is no limit to your growth. You can acquire and 
+                                serve as many clients as you want with SVK Broking infrastructure & innovative trading products.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div style = "height : 35%">
+                <div class = "spacing">
+                    <div class = "row">
+                        <div class = "col-md-6">
+                            <div id = "littlewhitepart">
+                            <h3 id = "onefourthsection">Marketing & Tech Support</h3>
+                            <p id = "onefourthsection" style = "font-size: 18px">SVK Broking is a well-recognised national brand with a
+                                focus on digital marketing to generate 
+                                client leads and introduce a number of initiatives to simplify client acquisition.</p>
+                            </div>
+                        </div>
+                        <div class = "col-md-6">
+                            <div id = "littlewhitepart">
+                            <h3 id = "onefourthsection">Low Investment - High Returns</h3>
+                            <p id = "onefourthsection" style = "font-size: 18px">Pay refundable deposit just once to become a SVK Broking Sub Broker
+                                & start serving your clients.
+                                As long as you keep your clients satisfied and active, you keep earning good returns.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id = "bluesection">            
+            <ul class="nav justify-content-center nav-tabs" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active" href="#profile" role="tab" data-toggle="tab">
+                        <p id = "p2">HOW TO OPEN A SUB BROKER ACCOUNT ?</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#buzz" role="tab" data-toggle="tab">
+                        <p id = "p2">BENEFITS OF BEING A SUB BROKER</p>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#references" role="tab" data-toggle="tab">
+                        <p id = "p2">DOCUMENTS REQUIRED TO OPEN A SUB BROKER ACCOUNT</p>
+                    </a>
+                </li>
+            </ul>            
+                    <!-- Tab panes -->
+            <div class="tab-content">
+                <div role="tabpanel" class="tab-pane fade in active" id="profile">
+                    <div class = "complicated">
+                        <div> 
+                            <h2 style = "font-size: 60px ; color : #fff8f9">HOW TO OPEN A SUB BROKER ACCOUNT ?</h2>
+                            <div style = "padding : 3%">
+                                <ul style="font-size: 30px ; color : #fff8f9 ; text-align : left">
+                                    <li style="margin-bottom : 2%">
+                                        Drop the enquiry
+                                    </li>
+                                    <li style="margin-bottom : 2%">
+                                        Receive the call from our CSO & business executive and answer a few questions
+                                    </li>
+                                    <li style="margin-bottom : 2%">
+                                        Provide all documents as stated in the checklist
+                                    </li>
+                                    <li style="margin-bottom : 2%">
+                                        Submit the cheque along with registration amount
+                                    </li>
+                                    <li style="margin-bottom : 2%">
+                                        Your tag is generated
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="buzz">
+                    <div class = "complicated">
+                        <div> 
+                            <h2 style = "font-size: 60px ; color : #fff8f9 ;">BENEFITS OF BEING A SUB BROKER</h2>
+                            <div style = "padding : 5%">
+                                <ul style="font-size: 30px ; color : #fff8f9 ; text-align : left">
+                                    <li style="margin-bottom : 2%">
+                                        Techno platform for becoming an entrepreneur .
+                                    </li>
+                                    <li style="margin-bottom : 2%">
+                                        100% help and support to generate more revenue .
+                                    </li>
+                                    <li style="margin-bottom : 2%">
+                                        Good brokerage rates .
+                                    </li>
+                                    <li style="margin-bottom : 2%">
+                                        Earn any amount of money by recruiting as many clients as you can handle .
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane fade" id="references">
+                    <div class = "complicated">
+                        <div> 
+                            <h2 style = "font-size: 60px ; color : #fff8f9 ;">DOCUMENTS REQUIRED TO OPEN A SUB BROKER ACCOUNT</h2>
+                            <div style = "padding : 3%">
+                                <ul style="font-size: 30px ; color : #fff8f9 ; text-align : left">
+                                    <li style="margin-bottom : 1.2%">
+                                        Pan card , Aadhar card
+                                    </li>
+                                    <li style="margin-bottom : 1.2%">
+                                        Educational proof (minimum intermediate)
+                                    </li>
+                                    <li style="margin-bottom : 1.2%">
+                                        Residential address proof
+                                    </li>
+                                    <li style="margin-bottom : 1.2%">
+                                        Office address proof (electricity bill, phone bill-BSNL or MTNL, bank statement)
+                                    </li>
+                                    <li style="margin-bottom : 1.2%">
+                                        Four photographs , CA reference letter 
+                                    </li>
+                                    <li style="margin-bottom : 1.2%">
+                                        Name affidavit in case of any kind of mismatch in name on a Rs. 10 stamp paper
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class = "footer">
+            <div class = "container">
+                <p style = "text-decoration: underline" >*T&C Apply</p>
+                <p style="font-weight: 600 ; margin-bottom: 0px ;"> Disclaimer :</p> 
+                <p>‘Investments in securities market are subject to market risk, read all the related documents carefully before investing.’
+                <br>SVK Broking Limited (formerly known as ZUZIYERMAIL Broking Limited)
+                Registered Office : G-1, Ackruti Trade Centre, Road No. 7, MIDC, Andheri (E), Mumbai – 400 093. 
+                <br>Tel: (022) 3083 7700 . Fax: (022) 2835 8811, website: www.angelbroking.com, CIN: U67120MH1996PLC101709
+                , BSE Cash/F&O: INB010996539 / INF010996539<br>
+                MSEI: INE261279838, CDSL Regn. No.: IN - DP - CDSL - 234 – 2004, PMS Regn. No.: PM/INP000001546,
+                Research Analyst SEBI Regn. No.: INH000000164,<br>
+                AMFI Registration No. ARN – 77404 Compliance officer: Mr. Sundaram Ramalingam, Tel: (022) 39413940<br>
+                Email: compliance@svkbroking.com.
+                </p>
+            </div>
+        </div>
+    </body>
+</html>
